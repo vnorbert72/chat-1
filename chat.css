@@ -1,0 +1,388 @@
+/* ================ Html Style  =================== */
+
+* {
+  box-sizing:                border-box;
+}
+html {
+  
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  font-size:                       100%;
+  height:                         100vh;
+}
+.cname {
+text-align:                       right;
+font:       Bold 12px/15px 'Montserrat';
+letter-spacing:                   2.4px;
+color:                          #6200EA;
+text-transform:               uppercase;
+opacity:                              1;
+  }
+  p {
+display:                     table-cell;
+text-align:                        left;
+font-size:                         14px;
+letter-spacing:                     0px;
+color:                          #211138;
+opacity:                              1;
+margin-left:                       1rem;
+
+  }
+h2 {
+font:       Bold 20px/30px 'Montserrat';
+letter-spacing:                     0px;
+color:                          #FFFFFF;
+margin:                     1.5rem 1rem;
+opacity:                              1;
+}
+h5 {
+display:                          table;
+text-align:                        left;
+font:       Bold 12px/15px 'Montserrat';
+letter-spacing:                   2.4px;
+color:                          #6200EA;
+text-transform:               uppercase;
+margin-top:                       .7rem;
+margin-bottom:                    .4rem;
+opacity:                              1;
+}
+
+/*============== Head Style ======================= */
+
+header {
+  position:                    absolute;
+  right:                              0;
+  top: 0;
+  width:                          74.7%;
+  height:                          5rem;
+  background-color:             #6200ea;
+ 
+}
+
+.logo {
+  position:                    absolute;
+  margin-left:                  27.8vw ;
+  margin-top:                     .7rem;
+  top:                            .4rem;
+}
+
+.u-pic {
+  position:                   absolute;
+  top:                          .55rem;
+  right:                         .98vw;
+  width:                          40px;
+  height:                         40px;
+  border-radius:                   50%;
+  margin-top:                   .5rem;
+}
+.sname {
+  position:                   absolute;
+  top:                           .5rem;
+  right:                       3.906vw;
+  margin:               1.1rem 1.25rem;
+  color:                       #FFFFFF;
+}
+
+
+/* ================ Search Style  =================== */
+
+form.example input[type=text] {
+  padding:                       10px;
+  font-size:                     17px;
+  border:           8px solid #ffffff;
+  float:                         left;
+  width:                          75%;
+  background-color:              #ccc;
+  border-right:                  none;
+  font:   Bold 14px/18px 'Montserrat';
+  letter-spacing:                 0px;
+  color:                      #211138;
+  opacity:                        .25;
+  margin-bottom:                .7rem;
+  margin-top:                   .5rem;
+}
+form.example button {
+  float:                         left;
+  width:                          20%;
+  padding:                       10px;
+  font-size:                     16px;
+  border:           8px solid #ffffff;
+  border-left:                  none ;
+  cursor:                     pointer;
+  background:                    #ccc;
+  margin-bottom:                .7rem;
+  margin-top:                   .5rem;
+  opacity:                        .45;
+}
+
+form.example button:hover {
+  background:                #f4f3f5;
+}
+
+form.example::after {
+  content:                        "";
+  clear:                        both;
+  display:                     table;
+}
+.fa-search {
+font: Solid 20px/20px 'Font Awesome 5 Free';
+letter-spacing:                 0px;
+color:                      #211138;
+}
+/* ================ Chat Style  =================== */
+.left-nav {
+  width:                       25vw;
+  height:                     100vh;
+}
+
+/* Chat containers */
+.container {
+  height:                  7.685vh;
+  background-color:        #FFFFFF;
+  border-bottom: 1px solid #F4F3F5;
+  padding:                    10px;
+  margin:                        0;
+}
+.container:hover {
+  border-left:  5px solid #6200EA;
+  height:                 7.585vh;
+}
+
+.container img {
+  float:                     left;
+  max-width:                 50px;
+  max-height:                50px;
+  width:                     100%;
+  margin:                      2%;
+  border-radius:              50%;
+}
+/* Style time text */
+.time-left {
+  float:                     left;
+  color:                     #999;
+}
+/*============== Imput Style ====================== */
+input[type=submit] {
+  width:                          100%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color:                       #6200EA;
+  padding:              .925rem .25rem;
+  border:            2px solid #6200EA;
+  border-radius:                  24px;
+  cursor:                      pointer;
+}
+
+input[type=submit]:hover {
+  background-color:            #6200EA;
+  color:                       #FFFFFF;
+}
+
+.container5 {
+  margin:                       .93rem; 
+  border-radius:                   5px;
+  background-color:            #FFFFFF;
+}
+
+/* ================ Aside Style  =================== */
+
+aside {
+  position:                  absolute;
+  right:                            0;
+  top:                           5rem;
+  width:                        74.8%;
+  height:                         90%;
+  background-color:           #F4F3F5;
+}
+.r-side {
+  position:                  absolute;
+  right:                      2.929vw;
+  top:                          4.44%;
+  width:                          90%;
+  height:                      70.77%;
+  background-color:           #F4F3F5;
+}
+/* ================ Amy Chat Room Style  =================== */
+
+.container1 {
+  max-height:                    70%;
+  background-color:          #F4F3F5;
+  margin:                          0;
+}
+.container1 img {
+  float:                       left;
+  max-width:                   50px;
+  max-height:                  50px;
+  width:                       100%;
+  border-radius:                50%;
+}
+.amy-chat {
+  background-color:         #FFFFFF;
+  display:                    table;
+  width:                    29.30vw;
+  height:                   7.685vh;
+  margin-left:              3.75rem;
+  border-radius:   0 15px 15px 15px;
+}
+.amy-chat1 {
+  background-color:         #ffffff;
+  display:                    table;
+  width:                    21.48vw;
+  height:                    5.76vh;
+  margin-left:              3.75rem;
+  margin-top:                 .5rem;
+  border-radius:   0 15px 15px 15px;
+}
+.amy-chat2 {
+  position:                absolute;
+  display:                    table;
+  width:                    21.48vw;
+  height:                    5.76vh;
+  margin-left:              3.25rem;
+  bottom:                      1rem;
+}
+.amy-text {
+text-align:                    left;
+font:   'Regular' 12px 'Montserrat';
+letter-spacing:                 0px;
+color:                      #211138;
+opacity:                          1;
+padding:                  1rem 1rem;
+}
+.time-left1 {
+position:                  relative;
+margin-left:                3.75rem;
+font:   Bold 12px/15px 'Montserrat';
+letter-spacing:               2.4px;
+color:                      #B2ACBA;
+text-transform:           uppercase;
+opacity:                          1;
+}
+/* ================ Student Chat Room Style  =================== */
+
+.student-chat {
+  float:                      right;
+  background: #B2ACBA 0% 0% no-repeat padding-box;
+  display:                    table;
+  width:                    23.44vw;
+  height:                   7.685vh;
+  margin-right:              .75rem;
+  margin-left:                 38vw;
+  margin-bottom:              .5rem;
+  border-radius:   15px 15px 0 15px;
+}
+.student-chat1 {
+  float:                      right;
+  background: #B2ACBA 0% 0% no-repeat padding-box;
+  display:                    table;
+  width:                    21.48vw;
+  height:                   5.685vh;
+  margin-right:              .75rem;
+  margin-left:                 38vw;
+  border-radius:   15px 15px 0 15px;
+}
+.student-chat2 {
+  
+  float:                      right;
+  background: #B2ACBA 0% 0% no-repeat padding-box;
+  display:                    table;
+  width:                    10.74vw;
+  height:                   5.485vh;
+  margin-right:                1rem;
+  margin-left:                 46vw;
+  border-radius:   15px 15px 0 15px;
+  margin-top:                 .5rem;
+  font-size:                   15px;
+}
+.student-text {
+  text-align:                  left;
+  font:'Regular' 14px  'Montserrat';
+  letter-spacing:               0px;
+  color:                    #ffffff;
+  opacity:                        1;
+  padding:                1rem 1rem;
+}
+.container2 img {
+  float:                      right;
+  max-width:                   50px;
+  max-height:                  50px;
+  width:                       100%;
+  border-radius:                50%;
+}
+.time-right {
+  position:                relative;
+  left:                         92%;
+  font: Bold 12px/15px 'Montserrat';
+  letter-spacing:             2.4px;
+  color:                    #B2ACBA;
+  text-transform:         uppercase;
+  opacity:                        1;
+}
+/* ================ Message Style  =================== */
+
+form.example1 input[type=text] {
+  position:               absolute;
+  padding:               1rem 1rem;
+  font-size:                  17px;
+  font: Bold 14px/18px 'Montserrat';
+  letter-spacing:              0px;
+  color:                   #211138;
+  background-color:        #F4F3f5;
+  margin-top:              1.25rem;
+  width:                       67%;
+  height:                 13.606vh;
+  right:                    5.86vw;
+}
+
+form.example1::after {
+  content:                      "";
+  clear:                      both;
+  display:                   table;
+}
+
+.emo {
+  float:                     right;
+  text-align:               center;
+  font: 'Regular' 20px/20px 'Font Awesome 5 Free';
+  letter-spacing:              0px;
+  color:                   #211138;
+  opacity:                    0.25;
+  cursor:                  pointer;
+}
+.fa-smile {
+ position:                absolute;
+ right:                     7.32vw;
+ font-size:                   20px;
+ margin-top:                 1.5vw;
+  
+}
+.file1 {
+position:                 absolute;
+right:                       8.6vw;
+text-align:                 center;
+font: Solid 20px/20px 'Font Awesome 5 Free';
+font-size:                    20px;
+letter-spacing:                0px;
+color:                     #211138;
+opacity:                      0.25;
+margin:               1.5vw 1.92vh;
+cursor:                    pointer;
+}
+.fa-send {
+position:                 absolute;
+right:                     2.929vw;
+background: #6200EA 0% 0% no-repeat padding-box;
+opacity:                         1;
+width:                        50px;
+height:                       50px;
+border:          1px solid #6200EA;
+border-radius:                 50%;
+margin-top:                1.25rem;
+}
+footer {
+  height:                  19.45vh;
+  width:                      100%;
+  position:               absolute;
+  bottom:                        0;
+  background-color:        #ffffff;
+}
